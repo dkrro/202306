@@ -12,9 +12,8 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url("index_back.png");
+    background-color:black;
     }
-
 
 .sns_top{
     position: fixed;
