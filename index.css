@@ -12,8 +12,58 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:black;
+    background-image: url("index_back.png");
     }
+
+
+.world{
+    position: absolute;
+    top:3200px;
+    left: 250px;
+}
+
+
+
+.world_click{
+    position: absolute;
+    top: 3500px;
+    left: 410px;
+    z-index: 9;
+}
+
+.position{
+    position: absolute;
+    top: 3200px;
+    left: 570px;
+}
+
+.position_click{
+    position: absolute;
+    top: 3500px;
+    left: 730px;
+}
+
+
+.system{
+    position: absolute;
+    top:3200px;
+    left: 890px;
+}
+
+.system_click{
+    position: absolute;
+    top: 3500px;
+    left: 1050px;
+    z-index: 3;
+}
+
+
+
+.shadow{
+    position: absolute;
+    top: 3550px;
+    left: 330px;
+}
 
 .sns_top{
     position: fixed;
@@ -64,12 +114,7 @@ body{
     height: auto;
 }
 
-.eng_logo {
-    
-    left: 30px;
-    position: relative;
-    display:inline;
-}
+
 
 .notice_top{
     top: -20px;
@@ -101,9 +146,15 @@ body{
     
 }
 
+.eng_logo {
+    top: 20px;
+    left: 30px;
+    position: absolute;
+    display:fixed;
+}
 .twitter_top{
     top: 20px;
-    left: 1850px;
+    left: 1840px;
     position: absolute;
 }
 
@@ -129,7 +180,7 @@ body{
 .main_cut{
     position: absolute;
     top: 1970px;
-    left: 440px;
+    left: 330px;
     z-index: 9;
 }
 
@@ -157,48 +208,6 @@ body{
     z-index: 9;
 }
 
-.world{
-    position: absolute;
-    top: 2811px;
-}
-
-.world:hover{
-    transform:scale(1.03);
-    transition: transform .7s;
-}
-
-.position{
-    position: absolute;
-    left: 480px;
-    top: 2811px;
-}
-
-.position:hover{
-    transform:scale(1.03);
-    transition: transform .7s;
-}
-
-.system{
-    position: absolute;
-    left: 960px;
-    top: 2811px;
-}
-
-.system:hover{
-    transform:scale(1.03);
-    transition: transform .7s;
-}
-
-.story{
-    position: absolute;
-    left: 1440px;
-    top: 2811px;
-}
-
-.story:hover{
-    transform:scale(1.03);
-    transition: transform .7s;
-}
 
 .left_img{
     top:300px;
